@@ -1,0 +1,10 @@
+.content-category {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+
+  align-self: flex-start;
+  vertical-align: middle;
+
+  margin-top: 10px;
+}

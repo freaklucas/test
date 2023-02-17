@@ -1,0 +1,96 @@
+.content {
+    display: flex;
+
+}
+
+.search {
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 20px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 8px;
+    
+}
+
+.search p {
+    margin-top: 1px;
+}
+
+.search input {
+    margin-top
+}
+
+.category {
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  align-items: center;
+  margin-top: 2%;
+  padding: 10px;
+  margin-right: 22px;
+
+
+}
+
+.category hr {
+    width: 80%;
+}
+
+
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    margin-left: 22px;
+    margin-right: 22px;
+} 
+
+  .components  img {
+    /* background-color: aqua; */
+    width: 140px;
+    margin-top: 2px;
+  }
+
+  .components {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+
+    grid-gap: 6px;
+    margin-top: 38px;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .display {
+    margin-top: 17px;
+  }
+
+  .display p {
+    margin-bottom: 12px;
+    font-family:fantasy;
+    color: #808080;
+  }
+
+  .display hr {
+    width: 98%;
+  }
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
